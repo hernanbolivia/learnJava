@@ -9,15 +9,39 @@ public class Main {
                 "Asistente de ventas",
                 2150.00);
 
-        empleado1.mostrarDetalles();
+        Empleado empleado2 = new Empleado(
+                "Luis",
+                2,
+                "Desarrollador Backend",
+                4520);
 
-        empleado1.setSalarioMensual(3500);//Aumento del Salario
-        System.out.println("\nDetalles después del aumento");
-        empleado1.mostrarDetalles();
+        Empleado empleado3 = new Empleado(
+                "Juan Perez");
 
-        //Aplicando aumento del 10%
-        double nuevoSalario = empleado1.aplicarAumento(10);
-        System.out.println("\nNuevo salario después del aumento 10%: $" + nuevoSalario);
+        Empleado empleado4 = new Empleado();
+
+        Empleado empleado5 = new Empleado(
+                "Luz",
+                3,
+                "Diseñadora",
+                4896);
+
+
+        empleado1.imprimirDetalles();
+        empleado2.imprimirDetalles();
+        empleado3.imprimirDetalles();
+        empleado4.imprimirDetalles();
+        empleado5.imprimirDetalles();
+
+        //Aplicando aumento y mostrando resultado
+
+        System.out.println("\n====Aumento de salario=====");
+        System.out.println("Aplicando 10% de aumento al salario de Luis:");
+        empleado2.aplicarAumento(10.0);
+        empleado2.imprimirDetalles();
+
 
     }
 }
+
+
