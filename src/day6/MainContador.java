@@ -10,5 +10,6 @@ public class MainContador {
         contador1.mostrarContador();
 
 
+        obj1.mostrarContador();
     }
 }
