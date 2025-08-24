@@ -11,6 +11,7 @@ public class Banco {
 
 
     // atributos
+
     private String nombreClientes;
     private double saldo;
 
@@ -21,10 +22,14 @@ public class Banco {
     }
 
     //Metodo estatico
-
     public static void cambiarTasaInteres(double nuevaTasa){
         tasaInteres = nuevaTasa;
+    }
 
+    public void mostrarDatos(){
+        System.out.println("\nCliente: " + this.nombreClientes);
+        System.out.println("Saldo: " + this.saldo);
+        System.out.println("Tasa de Interés: " + tasaInteres );
     }
 
 }

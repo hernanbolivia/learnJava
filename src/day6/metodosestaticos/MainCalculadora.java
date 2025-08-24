@@ -10,7 +10,7 @@ public class MainCalculadora {
 
         System.out.println("Suma: " + resultadoSuma);
         System.out.println("Resta: " + resultadoResta);
-        System.out.println("Multiplicacion: " + resultadoMultiplicacion);
+        System.out.println("Multiplicación: " + resultadoMultiplicacion);
         System.out.println("Division: " + resultadoDivision);
 
 
