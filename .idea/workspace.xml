@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="add new class en day6 class Calculadora">
-      <change afterPath="$PROJECT_DIR$/src/day6/practica/MainBanco.java" afterDir="false" />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Avanzando...">
+      <change afterPath="$PROJECT_DIR$/src/day7/MainSumador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7/Sumador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7/concatenar/Concatenador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7/concatenar/MainConcatenador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7/practica/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7/practica/MainCalculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day5/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day5/Circulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/Contador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/MainContador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/MainContador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/metodosestaticos/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/metodosestaticos/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/metodosestaticos/MainCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/metodosestaticos/MainCalculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day6/practica/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day6/practica/Banco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;hernanbolivia&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -62,9 +58,11 @@
     "Application.MainBanco.executor": "Run",
     "Application.MainCalculadora.executor": "Run",
     "Application.MainCirculo.executor": "Run",
+    "Application.MainConcatenador.executor": "Run",
     "Application.MainContador.executor": "Run",
     "Application.MainCuentas.executor": "Run",
     "Application.MainProducto.executor": "Run",
+    "Application.MainSumador.executor": "Run",
     "Application.day4.Main.executor": "Run",
     "Application.day6.metodosestaticos.MainCalculadora.executor": "Run",
     "Application.diados.Main.executor": "Run",
@@ -87,7 +85,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainBanco">
+  <component name="RunManager" selected="Application.MainConcatenador">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day5.metodosinretorno.Main" />
       <module name="CursoVespertino" />
@@ -114,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCirculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day5.MainCirculo" />
+    <configuration name="MainConcatenador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.concatenar.MainConcatenador" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day5.*" />
+          <option name="PATTERN" value="day7.concatenar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day6.metodosestaticos.MainCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.metodosestaticos.MainCalculadora" />
+    <configuration name="MainSumador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.MainSumador" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.metodosestaticos.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainConcatenador" />
+        <item itemvalue="Application.MainSumador" />
         <item itemvalue="Application.MainBanco" />
         <item itemvalue="Application.MainContador" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainCirculo" />
-        <item itemvalue="Application.day6.metodosestaticos.MainCalculadora" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +212,9 @@
       <workItem from="1747305241607" duration="1490000" />
       <workItem from="1755861425894" duration="83000" />
       <workItem from="1755919881809" duration="8685000" />
-      <workItem from="1755988513248" duration="7361000" />
+      <workItem from="1755988513248" duration="8144000" />
+      <workItem from="1756076646442" duration="248000" />
+      <workItem from="1756077022534" duration="9479000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -248,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755922264963</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Avanzando...">
+      <option name="closed" value="true" />
+      <created>1756036359013</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756036359013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +278,8 @@
     <MESSAGE value="add new class en day6" />
     <MESSAGE value="add new class en day6 class Calculadora" />
     <MESSAGE value="generado con IA" />
-    <option name="LAST_COMMIT_MESSAGE" value="generado con IA" />
+    <MESSAGE value="Avanzando..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Avanzando..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
