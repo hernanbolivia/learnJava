@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Avanzando..." />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Avanzando...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day7/practica/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/practica/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day7/practica/MainCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day7/practica/MainCalculadora.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +33,11 @@
     &quot;accountId&quot;: &quot;efc316af-fd1b-40e5-8907-13686901fdbb&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/day7/practica/Calculadora.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="Security Analysis" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -77,13 +84,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainConcatenador">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day5.metodosinretorno.Main" />
+  <component name="RunManager" selected="Application.MainCalculadora">
+    <configuration name="MainBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day6.practica.MainBanco" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day5.metodosinretorno.*" />
+          <option name="PATTERN" value="day6.practica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBanco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.practica.MainBanco" />
+    <configuration name="MainCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.practica.MainCalculadora" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.practica.*" />
+          <option name="PATTERN" value="day7.practica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCalculadora" />
         <item itemvalue="Application.MainConcatenador" />
         <item itemvalue="Application.MainSumador" />
         <item itemvalue="Application.MainBanco" />
         <item itemvalue="Application.MainContador" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +215,7 @@
       <workItem from="1756076646442" duration="248000" />
       <workItem from="1756077022534" duration="9479000" />
       <workItem from="1756121379717" duration="72000" />
+      <workItem from="1756190154777" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -257,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756121426937</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Avanzando...">
+      <option name="closed" value="true" />
+      <created>1756190183020</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756190183020</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

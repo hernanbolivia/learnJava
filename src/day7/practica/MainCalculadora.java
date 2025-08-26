@@ -5,8 +5,14 @@ public class MainCalculadora {
 
         Calculadora calculadora = new Calculadora();
 
-        calculadora.operacion("suma", 1, 2, 3, 4);
-        calculadora.operacion("producto",2, 3);
+
+
+
+        int resultadoSuma = calculadora.operacion("suma", 1, 2, 3, 4);
+        System.out.println(resultadoSuma);
+
+        int resultadoProducto = calculadora.operacion("producto", 1, 2, 3, 4);
+        System.out.println(resultadoProducto);
 
     }
 }
