@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Avanzando..." />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Avanzando...">
+      <change afterPath="$PROJECT_DIR$/src/day9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,8 +166,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
@@ -213,7 +219,11 @@
       <workItem from="1756077022534" duration="9479000" />
       <workItem from="1756121379717" duration="72000" />
       <workItem from="1756190154777" duration="1916000" />
-      <workItem from="1756355439344" duration="5391000" />
+      <workItem from="1756355439344" duration="6505000" />
+      <workItem from="1756461670113" duration="316000" />
+      <workItem from="1756462183319" duration="140000" />
+      <workItem from="1756462348481" duration="3000" />
+      <workItem from="1756462380060" duration="3714000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -287,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756360455271</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Avanzando...">
+      <option name="closed" value="true" />
+      <created>1756361673731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756361673731</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
