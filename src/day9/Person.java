@@ -31,8 +31,8 @@ public class Person {
      */
 
     public void displayInformation(){
-        System.out.printf("%-12s: %s%n", "Name",this.name);
-        System.out.printf("%-12s: %s%n", "Age",this.name);
+        System.out.printf("%-20s: %s%n", "Name",this.name);
+        System.out.printf("%-20s: %d%n", "Age",this.age);
     }
 
 

@@ -1,5 +1,7 @@
 package day9;
 
+import java.util.Arrays;
+
 public class Teacher extends Person{
 
     private String []specialties;
@@ -30,7 +32,8 @@ public class Teacher extends Person{
     @Override
     public void displayInformation(){
         super.displayInformation();
-        System.out.printf("%-12s: %s%n", "Years of Experience",this.yearsOfExperience);
-        System.out.printf("%-12s: %s%n", "Specialties",String.join(", ",this.specialties ));
+        //System.out.println("Specialities: " + Arrays.toString(this.specialties));
+        System.out.printf("%-20s: %d%n", "Years of Experience",this.yearsOfExperience);
+        System.out.printf("%-20s: %s%n", "Specialties",String.join(", ",this.specialties ));
     }
 }

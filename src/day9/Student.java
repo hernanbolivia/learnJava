@@ -33,7 +33,7 @@ public class Student extends Person {
     @Override
     public void displayInformation() {
         super.displayInformation();
-        System.out.printf("%-12s: %s%n", "Grade",this.grade);
-        System.out.printf("%-12s: %s%n", "Average",this.average);
+        System.out.printf("%-20s: %s%n", "Grade",this.grade);
+        System.out.printf("%-20s: %.2f%n", "Average",this.average);
     }
 }
