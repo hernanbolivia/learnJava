@@ -4,8 +4,8 @@ public class Dog extends Animal{
 
     private String dogBreed;
 
-    public Dog(String name, int age, String dogBreed) {
-        super(name, age);
+    public Dog(String name, int age, String species, String dogBreed) {
+        super(name, age,species);
         this.dogBreed = dogBreed;
     }
 
@@ -19,7 +19,7 @@ public class Dog extends Animal{
 
     @Override
     public void makeSound() {
-        System.out.println("Making Sound");
-        System.out.println("My dog says: Guau");
+
+        System.out.println("My dog " + getName() + " says: Woof!");
     }
 }

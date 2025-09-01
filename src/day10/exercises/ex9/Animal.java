@@ -4,10 +4,12 @@ public class Animal {
 
     private String name;
     private int age;
+    private String species;
 
-    public Animal(String name, int age) {
+    public Animal(String name, int age, String species) {
         this.name = name;
         this.age = age;
+        this.species = species;
     }
 
     public String getName() {
@@ -26,7 +28,28 @@ public class Animal {
         this.age = age;
     }
 
+    public String getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
     public void makeSound(){
         System.out.println("\nMaking Sound");
+    }
+
+    @Override
+    public String toString() {
+        return String.format(
+                "\n=========== Animal Information ========\n"+
+                        "%-15s: %s%n"+
+                        "%-15s: %d%n"+
+                        "%-15s: %s%n",
+                "Name", this.name,
+                "Age", this.age,
+                "Species", this.species
+        );
     }
 }

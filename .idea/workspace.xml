@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="add an exercise folder">
-      <change afterPath="$PROJECT_DIR$/src/day10/exercises/ex3ex4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exercises/ex7/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exercises/ex7/TestMathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exercises/ex9/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exercises/ex9/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exercises/ex9/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exercises/ex9/Main.java" afterDir="false" />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Ejercicios desde el 8 - 9">
+      <change afterPath="$PROJECT_DIR$/src/day10/exercises/ex13/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exercises/ex13/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/exercises/ex3ex4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/exercises/ex3ex4/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/exercises/ex9/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/exercises/ex9/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/exercises/ex9/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/exercises/ex9/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/exercises/ex9/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/exercises/ex9/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/exercises/ex9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/exercises/ex9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +70,7 @@
     "Application.MainSumador.executor": "Run",
     "Application.TestCalculator.executor": "Run",
     "Application.TestMathOperations.executor": "Run",
+    "Application.day10.exercises.ex13.Main.executor": "Run",
     "Application.day10.exercises.ex3ex4.Main.executor": "Run",
     "Application.day4.Main.executor": "Run",
     "Application.day6.metodosestaticos.MainCalculadora.executor": "Run",
@@ -96,20 +95,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.exercises.ex1.Library" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10.exercises.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.day10.exercises.ex13.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.exercises.ex9.Main" />
       <module name="CursoVespertino" />
@@ -149,6 +135,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day10.exercises.ex13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exercises.ex13.Main" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day10.exercises.ex13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="day10.exercises.ex3ex4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.exercises.ex3ex4.Main" />
       <module name="CursoVespertino" />
@@ -164,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day10.exercises.ex13.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestMathOperations" />
         <item itemvalue="Application.day10.exercises.ex3ex4.Main" />
         <item itemvalue="Application.TestCalculator" />
-        <item itemvalue="Application.Library" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +233,9 @@
       <workItem from="1756462348481" duration="3000" />
       <workItem from="1756462380060" duration="4024000" />
       <workItem from="1756556321323" duration="6371000" />
-      <workItem from="1756610273541" duration="9782000" />
+      <workItem from="1756610273541" duration="9920000" />
+      <workItem from="1756681439241" duration="4016000" />
+      <workItem from="1756722435648" duration="2850000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -332,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756563647581</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ejercicios desde el 8 - 9">
+      <option name="closed" value="true" />
+      <created>1756622360307</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1756622360307</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +365,8 @@
     <MESSAGE value="generado con IA" />
     <MESSAGE value="Avanzando..." />
     <MESSAGE value="add an exercise folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add an exercise folder" />
+    <MESSAGE value="Ejercicios desde el 8 - 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios desde el 8 - 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

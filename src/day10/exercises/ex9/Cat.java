@@ -4,8 +4,8 @@ public class Cat extends Animal {
 
     private String sobriquet;
 
-    public Cat(String name, int age, String sobriquet) {
-        super(name, age);
+    public Cat(String name, int age, String species, String sobriquet) {
+        super(name, age, species);
         this.sobriquet = sobriquet;
     }
 
@@ -19,7 +19,9 @@ public class Cat extends Animal {
 
     @Override
     public void makeSound() {
-        System.out.println("Making Sound");
-        System.out.println("my cat says: Miauuu");
+
+        System.out.println("my cat "+ getName()+" says: Miauuu");
     }
+
+
 }
