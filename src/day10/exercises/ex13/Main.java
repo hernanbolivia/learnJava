@@ -1,5 +1,7 @@
 package day10.exercises.ex13;
 
+
+
 public class Main {
     public static void main(String[] args) {
 
@@ -8,6 +10,8 @@ public class Main {
         Counter counter2 = new Counter();
 
         Counter.displayCounting();
+
+        
 
 
 

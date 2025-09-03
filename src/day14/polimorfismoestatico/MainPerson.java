@@ -22,6 +22,14 @@ public class MainPerson {
         Person person6 = new Person();
 
 
+        person1.displayInformation();
+        person2.displayInformation();
+        person3.displayInformation();
+        person4.displayInformation();
+        person5.displayInformation();
+        person6.displayInformation();
+
+
 
     }
 }

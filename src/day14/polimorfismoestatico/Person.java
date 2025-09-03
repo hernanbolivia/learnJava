@@ -12,7 +12,6 @@ public class Person {
         this("Unknown", 0);
     }
 
-
     public Person(int age){
         this("Unknown", age);
     }
@@ -27,6 +26,7 @@ public class Person {
     }
 
     public void displayInformation(){
+        System.out.println("\n==========Information of Person===========");
         System.out.printf("%-20s: %s%n", "Name",this.name);
         System.out.printf("%-20s: %d%n", "Age",this.age);
     }
