@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="ejercicios, sesion 15">
-      <change afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Truck.java" afterDir="false" />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Ejercicios desde el 8 - 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day15/vehiclemanagement/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day15/vehiclemanagement/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day15/vehiclemanagement/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day15/vehiclemanagement/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/hernanbolivia/learnJava.git&quot;,
-    &quot;accountId&quot;: &quot;efc316af-fd1b-40e5-8907-13686901fdbb&quot;
+    &quot;accountId&quot;: &quot;99a16ae0-47f9-4a7d-bf1b-45c6e3507f49&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -40,7 +40,7 @@
     <setting file="file://$PROJECT_DIR$/src/day8/Alumno.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="Security Analysis" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -55,24 +55,23 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.AreaCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Company.executor&quot;: &quot;Run&quot;,
     &quot;Application.GestionLibros.executor&quot;: &quot;Run&quot;,
     &quot;Application.Library.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainBanco.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainCalculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCalculator.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainCirculo.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainConcatenador.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainContador.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainCuentas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainPerson.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainProducto.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainSumador.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestCalculator.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestMathOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day10.exercises.ex13.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.day10.exercises.ex13.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.day10.exercises.ex3ex4.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day14.herenciamultinivel.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.day4.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.day6.metodosestaticos.MainCalculadora.executor&quot;: &quot;Run&quot;,
     &quot;Application.day9.Main.executor&quot;: &quot;Run&quot;,
@@ -85,6 +84,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -93,16 +93,17 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;E:/Hernan/Educación/Programacion/CursoVespertino/src/Main.java&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AreaCalculator">
-    <configuration name="AreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.polimorfismodinamico.practice.AreaCalculator" />
+  <component name="RunManager" selected="Application.MainCalculator">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exercises.ex9.Main" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.polimorfismodinamico.practice.*" />
+          <option name="PATTERN" value="day10.exercises.ex9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +111,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.polimorfismodinamico.Company" />
+    <configuration name="MainCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.polimorfismoestatico.MainCalculator" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.polimorfismodinamico.*" />
+          <option name="PATTERN" value="day14.polimorfismoestatico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.polimorfismoestatico.MainPerson" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day14.polimorfismoestatico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMathOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exercises.ex7.TestMathOperations" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day10.exercises.ex7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,39 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day10.exercises.ex3ex4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.exercises.ex3ex4.Main" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10.exercises.ex3ex4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day14.herenciamultinivel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.herenciamultinivel.Main" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day14.herenciamultinivel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AreaCalculator" />
-        <item itemvalue="Application.Company" />
-        <item itemvalue="Application.day14.herenciamultinivel.Main" />
-        <item itemvalue="Application.day10.exercises.ex3ex4.Main" />
+        <item itemvalue="Application.MainCalculator" />
+        <item itemvalue="Application.MainPerson" />
         <item itemvalue="Application.day10.exercises.ex13.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestMathOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -236,14 +237,8 @@
       <workItem from="1756556321323" duration="6371000" />
       <workItem from="1756610273541" duration="9920000" />
       <workItem from="1756681439241" duration="4016000" />
-      <workItem from="1756722435648" duration="3182000" />
-      <workItem from="1756788039687" duration="895000" />
-      <workItem from="1756789301161" duration="647000" />
-      <workItem from="1756791461018" duration="1814000" />
-      <workItem from="1756814266964" duration="17000" />
-      <workItem from="1756867016580" duration="243000" />
-      <workItem from="1756867311517" duration="5254000" />
-      <workItem from="1757047835986" duration="4427000" />
+      <workItem from="1756722435648" duration="2850000" />
+      <workItem from="1756936444854" duration="1805000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -349,39 +344,7 @@
       <option name="project" value="LOCAL" />
       <updated>1756622360307</updated>
     </task>
-    <task id="LOCAL-00014" summary="Finished exercise">
-      <option name="closed" value="true" />
-      <created>1756726080583</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1756726080583</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Finished exercise">
-      <option name="closed" value="true" />
-      <created>1756791612231</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1756791612231</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Good start session #14 multilevel inheritance">
-      <option name="closed" value="true" />
-      <created>1756870287425</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1756870287425</updated>
-    </task>
-    <task id="LOCAL-00017" summary="ejercicios, sesion 15">
-      <option name="closed" value="true" />
-      <created>1756970354491</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1756970354491</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,10 +369,7 @@
     <MESSAGE value="Avanzando..." />
     <MESSAGE value="add an exercise folder" />
     <MESSAGE value="Ejercicios desde el 8 - 9" />
-    <MESSAGE value="Finished exercise" />
-    <MESSAGE value="Good start session #14 multilevel inheritance" />
-    <MESSAGE value="ejercicios, sesion 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicios, sesion 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios desde el 8 - 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

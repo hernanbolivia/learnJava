@@ -66,7 +66,9 @@ public class Vehicle {
         System.out.println("The vehicle is under maintenance");
     }
 
-
+    /*
+        Method with varargs
+     */
     public void registerServices(String... services){
         System.out.println("Registered services:");
         for(String service: services){
