@@ -37,8 +37,8 @@ public class Motorcycle extends Vehicle {
 
     @Override
     public void performMaintenance() {
-        super.performMaintenance();
-        System.out.println("The vehicle is under maintenance. Verified neumatic");
+
+        System.out.println("The Motorcycle is under maintenance. Verified neumatic");
     }
 
 

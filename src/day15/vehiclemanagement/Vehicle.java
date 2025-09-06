@@ -70,9 +70,9 @@ public class Vehicle {
         Method with varargs
      */
     public void registerServices(String... services){
-        System.out.println("Registered services:");
+        System.out.println("\nRegistered services: " +getBrand() +" "+ getModel());
         for(String service: services){
-            System.out.printf("- %s%n " ,service);
+            System.out.printf("  - %-25s%n" ,service);
         }
 
     }

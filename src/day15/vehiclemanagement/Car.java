@@ -39,8 +39,8 @@ public class Car extends Vehicle{
 
     @Override
     public void performMaintenance(){
-        super.performMaintenance();
-        System.out.println("The vehicle is under maintenance. Chek doors");
+
+        System.out.println("The Car is under maintenance. Chek doors");
     }
 
 
