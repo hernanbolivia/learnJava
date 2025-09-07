@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="ejercicios, sesion 15">
-      <change afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/VehicleManagement.java" afterDir="false" />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Ejercicios finalizados sesión 15 - parte 1">
+      <change afterPath="$PROJECT_DIR$/src/day15/zoomanagement/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15/zoomanagement/Elephant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15/zoomanagement/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day15/zoomanagement/Tiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_08_2025_04_59_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_08_2025_04_59__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day15/vehiclemanagement/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day15/vehiclemanagement/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day15/vehiclemanagement/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day15/vehiclemanagement/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day15/vehiclemanagement/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,50 +55,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AreaCalculator.executor": "Run",
-    "Application.Company.executor": "Run",
-    "Application.GestionLibros.executor": "Run",
-    "Application.Library.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainBanco.executor": "Run",
-    "Application.MainCalculadora.executor": "Run",
-    "Application.MainCirculo.executor": "Run",
-    "Application.MainConcatenador.executor": "Run",
-    "Application.MainContador.executor": "Run",
-    "Application.MainCuentas.executor": "Run",
-    "Application.MainProducto.executor": "Run",
-    "Application.MainSumador.executor": "Run",
-    "Application.TestCalculator.executor": "Run",
-    "Application.TestMathOperations.executor": "Run",
-    "Application.VehicleManagement.executor": "Run",
-    "Application.day10.exercises.ex13.Main.executor": "Debug",
-    "Application.day10.exercises.ex3ex4.Main.executor": "Run",
-    "Application.day14.herenciamultinivel.Main.executor": "Run",
-    "Application.day4.Main.executor": "Run",
-    "Application.day6.metodosestaticos.MainCalculadora.executor": "Run",
-    "Application.day9.Main.executor": "Run",
-    "Application.diados.Main.executor": "Run",
-    "Application.diados.practica.Main.executor": "Run",
-    "Application.diatres.Main.executor": "Run",
-    "Application.diatres.delegacionconstructores.Main.executor": "Run",
-    "Application.diatres.sobrecargaconst.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "E:/Hernan/Educación/Programacion/CursoVespertino/src/Main.java",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AreaCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Company.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GestionLibros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Library.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainBanco.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCalculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCirculo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainConcatenador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainContador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCuentas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainProducto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainSumador.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMathOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VehicleManagement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day10.exercises.ex13.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.day10.exercises.ex3ex4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day14.herenciamultinivel.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day6.metodosestaticos.MainCalculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.day9.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diados.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diados.practica.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diatres.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diatres.delegacionconstructores.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diatres.sobrecargaconst.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Hernan/Educación/Programacion/CursoVespertino/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.VehicleManagement">
     <configuration name="AreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day14.polimorfismodinamico.practice.AreaCalculator" />
@@ -246,6 +247,7 @@
       <workItem from="1756867016580" duration="243000" />
       <workItem from="1756867311517" duration="5254000" />
       <workItem from="1757047835986" duration="4427000" />
+      <workItem from="1757280594344" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -383,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756970354491</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Ejercicios finalizados sesión 15 - parte 1">
+      <option name="closed" value="true" />
+      <created>1757155073544</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1757155073544</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +421,8 @@
     <MESSAGE value="Finished exercise" />
     <MESSAGE value="Good start session #14 multilevel inheritance" />
     <MESSAGE value="ejercicios, sesion 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicios, sesion 15" />
+    <MESSAGE value="Ejercicios finalizados sesión 15 - parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios finalizados sesión 15 - parte 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
