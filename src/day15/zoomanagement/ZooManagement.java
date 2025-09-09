@@ -16,7 +16,7 @@ public class ZooManagement {
         animal2.makeSound();
         animal3.makeSound();
 
-        System.out.println("==== Registering maintenance ====");
+        System.out.println("\n====Registering maintenance ====");
         animal1.registerMaintenance("Check for injuries. Inspection of cage doors");
         animal2.registerMaintenance("Check for injuries. Infrastructure replacement.");
         animal3.registerMaintenance("Check for injuries. Full bathroom.");
