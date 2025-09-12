@@ -3,7 +3,7 @@ package day17;
 public class Main {
     public static void main(String[] args) {
 
-        Employee fulltimeEmployee = new FullTimeEmployee(
+        Employee fullTimeEmployee = new FullTimeEmployee(
                 12,
                 "Hernán",
                 4500.00,
@@ -16,7 +16,7 @@ public class Main {
                 80,
                 10);
 
-        fulltimeEmployee.displayDetails();
+        fullTimeEmployee.displayDetails();
         partTimeEmployee.displayDetails();
 
     }
