@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Start session 16, abstract class">
-      <change afterPath="$PROJECT_DIR$/src/day18/InterfaceName.java" afterDir="false" />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Start session 18, interface and abstract method">
+      <change afterPath="$PROJECT_DIR$/src/day18/implementationInterface/CarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18/implementationInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18/implementationInterface/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18/mathematicaloperations/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18/mathematicaloperations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day18/mathematicaloperations/MathematicalOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,88 +57,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AreaCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Company.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GestionLibros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Library.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainBanco.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainCalculadora.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainCirculo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainConcatenador.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainContador.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainCuentas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainProducto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainSumador.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestMathOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VehicleManagement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ZooManagement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day10.exercises.ex13.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.day10.exercises.ex3ex4.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day14.herenciamultinivel.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day17.exercise.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day4.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day6.metodosestaticos.MainCalculadora.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day9.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.diados.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.diados.practica.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.diatres.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.diatres.delegacionconstructores.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.diatres.sobrecargaconst.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Hernan/Educación/Programacion/CursoVespertino/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AreaCalculator.executor": "Run",
+    "Application.Company.executor": "Run",
+    "Application.GestionLibros.executor": "Run",
+    "Application.Library.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainBanco.executor": "Run",
+    "Application.MainCalculadora.executor": "Run",
+    "Application.MainCirculo.executor": "Run",
+    "Application.MainConcatenador.executor": "Run",
+    "Application.MainContador.executor": "Run",
+    "Application.MainCuentas.executor": "Run",
+    "Application.MainProducto.executor": "Run",
+    "Application.MainSumador.executor": "Run",
+    "Application.TestCalculator.executor": "Run",
+    "Application.TestMathOperations.executor": "Run",
+    "Application.VehicleManagement.executor": "Run",
+    "Application.ZooManagement.executor": "Run",
+    "Application.day10.exercises.ex13.Main.executor": "Debug",
+    "Application.day10.exercises.ex3ex4.Main.executor": "Run",
+    "Application.day14.herenciamultinivel.Main.executor": "Run",
+    "Application.day17.exercise.Main.executor": "Run",
+    "Application.day18.implementationInterface.Main.executor": "Run",
+    "Application.day4.Main.executor": "Run",
+    "Application.day6.metodosestaticos.MainCalculadora.executor": "Run",
+    "Application.day9.Main.executor": "Run",
+    "Application.diados.Main.executor": "Run",
+    "Application.diados.practica.Main.executor": "Run",
+    "Application.diatres.Main.executor": "Run",
+    "Application.diatres.delegacionconstructores.Main.executor": "Run",
+    "Application.diatres.sobrecargaconst.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Hernan/Educación/Programacion/CursoVespertino/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.day17.exercise.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.day18.mathematicaloperations.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day16.Main" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZooManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day15.zoomanagement.ZooManagement" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day15.zoomanagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day10.exercises.ex3ex4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.exercises.ex3ex4.Main" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10.exercises.ex3ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,13 +147,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day18.implementationInterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.implementationInterface.Main" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day18.implementationInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day18.mathematicaloperations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.mathematicaloperations.Main" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day18.mathematicaloperations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day18.mathematicaloperations.Main" />
+        <item itemvalue="Application.day18.implementationInterface.Main" />
         <item itemvalue="Application.day17.exercise.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.day14.herenciamultinivel.Main" />
-        <item itemvalue="Application.day10.exercises.ex3ex4.Main" />
-        <item itemvalue="Application.ZooManagement" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +265,7 @@
       <workItem from="1757585923590" duration="3000" />
       <workItem from="1757586047918" duration="1701000" />
       <workItem from="1757673246370" duration="2687000" />
+      <workItem from="1757929523024" duration="4975000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -436,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757487124257</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Start session 18, interface and abstract method">
+      <option name="closed" value="true" />
+      <created>1757760399455</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1757760399455</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +483,8 @@
     <MESSAGE value="Ejercicios finalizados sesión 15 - parte 2" />
     <MESSAGE value="Finished session 15." />
     <MESSAGE value="Start session 16, abstract class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start session 16, abstract class" />
+    <MESSAGE value="Start session 18, interface and abstract method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start session 18, interface and abstract method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
