@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Start session 18, interface and abstract method">
-      <change afterPath="$PROJECT_DIR$/src/day18/implementationInterface/CarImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day18/implementationInterface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day18/implementationInterface/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day18/mathematicaloperations/CalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day18/mathematicaloperations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day18/mathematicaloperations/MathematicalOperations.java" afterDir="false" />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Ejercicios desde el 8 - 9">
+      <change afterPath="$PROJECT_DIR$/src/day19/multipleimplementation/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19/multipleimplementation/SmartDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19/multipleimplementation/SmartPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day18/mathematicaloperations/MathematicalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day18/mathematicaloperations/MathematicalOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +34,15 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/hernanbolivia/learnJava.git&quot;,
-    &quot;accountId&quot;: &quot;efc316af-fd1b-40e5-8907-13686901fdbb&quot;
+    &quot;accountId&quot;: &quot;99a16ae0-47f9-4a7d-bf1b-45c6e3507f49&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/day17/Employee.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/day7/practica/Calculadora.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/day8/Alumno.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="Security Analysis" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -59,28 +57,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AreaCalculator.executor": "Run",
-    "Application.Company.executor": "Run",
     "Application.GestionLibros.executor": "Run",
     "Application.Library.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainBanco.executor": "Run",
     "Application.MainCalculadora.executor": "Run",
+    "Application.MainCalculator.executor": "Run",
     "Application.MainCirculo.executor": "Run",
     "Application.MainConcatenador.executor": "Run",
     "Application.MainContador.executor": "Run",
     "Application.MainCuentas.executor": "Run",
+    "Application.MainPerson.executor": "Run",
     "Application.MainProducto.executor": "Run",
     "Application.MainSumador.executor": "Run",
     "Application.TestCalculator.executor": "Run",
     "Application.TestMathOperations.executor": "Run",
-    "Application.VehicleManagement.executor": "Run",
-    "Application.ZooManagement.executor": "Run",
-    "Application.day10.exercises.ex13.Main.executor": "Debug",
+    "Application.day10.exercises.ex13.Main.executor": "Run",
     "Application.day10.exercises.ex3ex4.Main.executor": "Run",
-    "Application.day14.herenciamultinivel.Main.executor": "Run",
     "Application.day17.exercise.Main.executor": "Run",
-    "Application.day18.implementationInterface.Main.executor": "Run",
+    "Application.day18.mathematicaloperations.Main.executor": "Run",
     "Application.day4.Main.executor": "Run",
     "Application.day6.metodosestaticos.MainCalculadora.executor": "Run",
     "Application.day9.Main.executor": "Run",
@@ -93,6 +88,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -101,19 +97,20 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "E:/Hernan/Educación/Programacion/CursoVespertino/src/Main.java",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Application.day18.mathematicaloperations.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day16.Main" />
+    <configuration name="TestMathOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exercises.ex7.TestMathOperations" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16.*" />
+          <option name="PATTERN" value="day10.exercises.ex7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +118,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day14.herenciamultinivel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day14.herenciamultinivel.Main" />
+    <configuration name="day10.exercises.ex13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exercises.ex13.Main" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.herenciamultinivel.*" />
+          <option name="PATTERN" value="day10.exercises.ex13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day17.Main" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,19 +150,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day17.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day18.implementationInterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day18.implementationInterface.Main" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day18.implementationInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.day18.mathematicaloperations.Main" />
-        <item itemvalue="Application.day18.implementationInterface.Main" />
         <item itemvalue="Application.day17.exercise.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.day14.herenciamultinivel.Main" />
+        <item itemvalue="Application.day17.Main" />
+        <item itemvalue="Application.day10.exercises.ex13.Main" />
+        <item itemvalue="Application.TestMathOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -247,25 +244,9 @@
       <workItem from="1756556321323" duration="6371000" />
       <workItem from="1756610273541" duration="9920000" />
       <workItem from="1756681439241" duration="4016000" />
-      <workItem from="1756722435648" duration="3182000" />
-      <workItem from="1756788039687" duration="895000" />
-      <workItem from="1756789301161" duration="647000" />
-      <workItem from="1756791461018" duration="1814000" />
-      <workItem from="1756814266964" duration="17000" />
-      <workItem from="1756867016580" duration="243000" />
-      <workItem from="1756867311517" duration="5254000" />
-      <workItem from="1757047835986" duration="4427000" />
-      <workItem from="1757280594344" duration="3001000" />
-      <workItem from="1757381556964" duration="1233000" />
-      <workItem from="1757383296787" duration="2191000" />
-      <workItem from="1757413756145" duration="6591000" />
-      <workItem from="1757455786365" duration="3008000" />
-      <workItem from="1757483640136" duration="11000" />
-      <workItem from="1757483727018" duration="3203000" />
-      <workItem from="1757585923590" duration="3000" />
-      <workItem from="1757586047918" duration="1701000" />
-      <workItem from="1757673246370" duration="2687000" />
-      <workItem from="1757929523024" duration="4975000" />
+      <workItem from="1756722435648" duration="2850000" />
+      <workItem from="1756936444854" duration="1805000" />
+      <workItem from="1757628177273" duration="1275000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -371,87 +352,7 @@
       <option name="project" value="LOCAL" />
       <updated>1756622360307</updated>
     </task>
-    <task id="LOCAL-00014" summary="Finished exercise">
-      <option name="closed" value="true" />
-      <created>1756726080583</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1756726080583</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Finished exercise">
-      <option name="closed" value="true" />
-      <created>1756791612231</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1756791612231</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Good start session #14 multilevel inheritance">
-      <option name="closed" value="true" />
-      <created>1756870287425</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1756870287425</updated>
-    </task>
-    <task id="LOCAL-00017" summary="ejercicios, sesion 15">
-      <option name="closed" value="true" />
-      <created>1756970354491</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1756970354491</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Ejercicios finalizados sesión 15 - parte 1">
-      <option name="closed" value="true" />
-      <created>1757155073544</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1757155073544</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Ejercicios finalizados sesión 15 - parte 2">
-      <option name="closed" value="true" />
-      <created>1757284448860</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1757284448860</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Finished session 15.">
-      <option name="closed" value="true" />
-      <created>1757389130980</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1757389130980</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Start session 16, abstract class">
-      <option name="closed" value="true" />
-      <created>1757422098994</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1757422098995</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Start session 16, abstract class">
-      <option name="closed" value="true" />
-      <created>1757487124257</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1757487124257</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Start session 18, interface and abstract method">
-      <option name="closed" value="true" />
-      <created>1757760399455</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1757760399455</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,15 +377,7 @@
     <MESSAGE value="Avanzando..." />
     <MESSAGE value="add an exercise folder" />
     <MESSAGE value="Ejercicios desde el 8 - 9" />
-    <MESSAGE value="Finished exercise" />
-    <MESSAGE value="Good start session #14 multilevel inheritance" />
-    <MESSAGE value="ejercicios, sesion 15" />
-    <MESSAGE value="Ejercicios finalizados sesión 15 - parte 1" />
-    <MESSAGE value="Ejercicios finalizados sesión 15 - parte 2" />
-    <MESSAGE value="Finished session 15." />
-    <MESSAGE value="Start session 16, abstract class" />
-    <MESSAGE value="Start session 18, interface and abstract method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start session 18, interface and abstract method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios desde el 8 - 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,9 +389,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
