@@ -31,7 +31,7 @@ public class CreditCardImpl implements PaymentMethod {
 
     @Override
     public void processPayment(double amount) {
-        System.out.println("Processing credit card payment: $" + amount + "For "+ this.titularName);
+        System.out.println("Processing credit card payment: $" + amount + " for "+ this.titularName);
 
     }
 

@@ -9,6 +9,7 @@ public class CryptoCurrencyImpl implements PaymentMethod {
         this.walletAddress = walletAddress;
     }
 
+
     public String getWalletAddress() {
         return walletAddress;
     }
@@ -21,11 +22,12 @@ public class CryptoCurrencyImpl implements PaymentMethod {
 
     @Override
     public void processPayment(double amount) {
+        System.out.println("Processing CryptoCurrency payment: $" + amount + " To Wallet Address " + this.walletAddress);
 
     }
 
     @Override
     public String getPaymentDetails() {
-        return "";
+        return "CryptoCurrency Wallet Address: " + this.walletAddress;
     }
 }

@@ -15,11 +15,12 @@ public class PaypalImpl implements PaymentMethod {
 
     @Override
     public void processPayment(double amount) {
+        System.out.println("Processing Paypal payment: $" + amount + " for " + this.email);
 
     }
 
     @Override
     public String getPaymentDetails() {
-        return "";
+        return "Paypal - Email: " + this.email;
     }
 }
