@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Start session 19, exercise 2 one, implements interface and class">
-      <change afterPath="$PROJECT_DIR$/src/day19/exercise3/EmailNotificationIml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day19/exercise3/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day19/exercise3/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day19/exercise3/PushNotificationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day19/exercise3/SmsNotificationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19/exercise3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19/exercise4/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19/exercise4/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19/exercise4/BiometricAuthenticationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19/exercise4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19/exercise4/PasswordAuthenticationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day19/exercise4/TwoFactorAuthenticationImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day19/exercise3/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day19/exercise3/NotificationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,8 @@
     "Application.day17.exercise.Main.executor": "Run",
     "Application.day18.implementationInterface.Main.executor": "Run",
     "Application.day18.mathematicaloperations.Main.executor": "Run",
+    "Application.day19.exercise3.Main.executor": "Run",
+    "Application.day19.exercise4.Main.executor": "Run",
     "Application.day4.Main.executor": "Run",
     "Application.day6.metodosestaticos.MainCalculadora.executor": "Run",
     "Application.day9.Main.executor": "Run",
@@ -109,7 +114,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.day19.exercise4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day19.exercise2.Main" />
       <module name="CursoVespertino" />
@@ -136,32 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day17.exercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17.exercise.Main" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day17.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day18.implementationInterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day18.implementationInterface.Main" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day18.implementationInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="day18.mathematicaloperations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day18.mathematicaloperations.Main" />
       <module name="CursoVespertino" />
@@ -175,13 +154,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day19.exercise3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19.exercise3.Main" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day19.exercise3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day19.exercise4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19.exercise4.Main" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day19.exercise4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day19.exercise4.Main" />
+        <item itemvalue="Application.day19.exercise3.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PaymentManagement" />
         <item itemvalue="Application.day18.mathematicaloperations.Main" />
-        <item itemvalue="Application.day18.implementationInterface.Main" />
-        <item itemvalue="Application.day17.exercise.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +277,10 @@
       <workItem from="1758261775088" duration="2244000" />
       <workItem from="1758281211696" duration="343000" />
       <workItem from="1758360851914" duration="6557000" />
-      <workItem from="1758603121194" duration="5054000" />
+      <workItem from="1758603121194" duration="5087000" />
+      <workItem from="1758865490964" duration="3000000" />
+      <workItem from="1758868585939" duration="291000" />
+      <workItem from="1758952979308" duration="4877000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -474,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758366870071</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Start session 19, exercise 2 one, implements interface and class">
+      <option name="closed" value="true" />
+      <created>1758626769843</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1758626769843</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
