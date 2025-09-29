@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Start session 19, exercise 2 one, implements interface and class">
-      <change afterPath="$PROJECT_DIR$/src/day20/examplecomposition1/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day20/examplecomposition1/Vehicle.java" afterDir="false" />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Started my session n°20, in this class I learned composition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20/examplecomposition1/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day20/examplecomposition1/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20/examplecomposition1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day20/examplecomposition1/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +276,7 @@
       <workItem from="1758868585939" duration="291000" />
       <workItem from="1758952979308" duration="5659000" />
       <workItem from="1759037911918" duration="593000" />
-      <workItem from="1759121443500" duration="1913000" />
+      <workItem from="1759121443500" duration="3765000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -494,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758958309491</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Started my session n°20, in this class I learned composition">
+      <option name="closed" value="true" />
+      <created>1759129530453</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1759129530454</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +537,8 @@
     <MESSAGE value="Start session 18, interface and abstract method" />
     <MESSAGE value="Start session 19, exercise one, implements interface and class" />
     <MESSAGE value="Start session 19, exercise 2 one, implements interface and class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start session 19, exercise 2 one, implements interface and class" />
+    <MESSAGE value="Started my session n°20, in this class I learned composition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started my session n°20, in this class I learned composition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

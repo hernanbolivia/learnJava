@@ -33,6 +33,6 @@ public class Vehicle {
 
     public void displayDetails() {
         System.out.println("Brand: " + this.brand);
-        System.out.println("Motor: " + this.motor.getHorsePower());
+        System.out.println("Horse Power: " + this.motor.getHorsePower());
     }
 }
