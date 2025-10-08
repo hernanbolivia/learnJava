@@ -1,7 +1,7 @@
 package day20.examplecomposition1;
 
 /**
- * Composition "has a"
+ * Composition "has a" Motor.
  */
 
 public class Vehicle {
@@ -32,7 +32,8 @@ public class Vehicle {
     }
 
     public void displayDetails() {
-        System.out.println("Brand: " + this.brand);
+        System.out.println("Brand Vehicle: " + this.brand);
         System.out.println("Horse Power: " + this.motor.getHorsePower());
+        System.out.println("Model of Motor: " + this.motor.getModel());
     }
 }
