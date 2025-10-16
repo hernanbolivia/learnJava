@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Started my session n°21">
-      <change afterPath="$PROJECT_DIR$/src/day21/library/Book.java" afterDir="false" />
+    <list default="true" id="b4b41959-0ec9-4adc-909f-8802acdd5fc3" name="Changes" comment="Started my session n°20, in this class I learned composition">
+      <change afterPath="$PROJECT_DIR$/src/day21/library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21/library/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +83,6 @@
     &quot;Application.day18.mathematicaloperations.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.day19.exercise3.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.day19.exercise4.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day20.examplecomposition1.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day20.examplecomposition2.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day21.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.day4.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.day6.metodosestaticos.MainCalculadora.executor&quot;: &quot;Run&quot;,
     &quot;Application.day9.Main.executor&quot;: &quot;Run&quot;,
@@ -109,13 +109,39 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.day21.Main">
+  <component name="RunManager" selected="Application.day19.exercise4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day21.tostring.Main" />
+      <option name="MAIN_CLASS_NAME" value="day19.exercise2.Main" />
       <module name="CursoVespertino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day21.tostring.*" />
+          <option name="PATTERN" value="day19.exercise2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19.exercise1.PaymentManagement" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day19.exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day18.mathematicaloperations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.mathematicaloperations.Main" />
+      <module name="CursoVespertino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day18.mathematicaloperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,39 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day20.examplecomposition1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day20.examplecomposition1.Main" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day20.examplecomposition1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day20.examplecomposition2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day20.examplecomposition2.Main" />
-      <module name="CursoVespertino" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day20.examplecomposition2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.day21.Main" />
-        <item itemvalue="Application.day20.examplecomposition2.Main" />
-        <item itemvalue="Application.day20.examplecomposition1.Main" />
         <item itemvalue="Application.day19.exercise4.Main" />
         <item itemvalue="Application.day19.exercise3.Main" />
+        <item itemvalue="Application.day18.mathematicaloperations.Main" />
+        <item itemvalue="Application.PaymentManagement" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -277,15 +277,7 @@
       <workItem from="1758868585939" duration="291000" />
       <workItem from="1758952979308" duration="5659000" />
       <workItem from="1759037911918" duration="593000" />
-      <workItem from="1759121443500" duration="3789000" />
-      <workItem from="1759304549368" duration="1033000" />
-      <workItem from="1759555288323" duration="756000" />
-      <workItem from="1759556261362" duration="737000" />
-      <workItem from="1759880358314" duration="7157000" />
-      <workItem from="1759989538100" duration="3776000" />
-      <workItem from="1760144317917" duration="3303000" />
-      <workItem from="1760586885535" duration="846000" />
-      <workItem from="1760609127190" duration="3217000" />
+      <workItem from="1759121443500" duration="3765000" />
     </task>
     <task id="LOCAL-00001" summary="nuevo">
       <option name="closed" value="true" />
@@ -511,47 +503,7 @@
       <option name="project" value="LOCAL" />
       <updated>1759129530454</updated>
     </task>
-    <task id="LOCAL-00029" summary="Started my session n°20, in this class I learned composition">
-      <option name="closed" value="true" />
-      <created>1759131350005</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1759131350005</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Started my session n°20, in this class I learned composition">
-      <option name="closed" value="true" />
-      <created>1759934291958</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1759934291958</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Started my session n°20, in this class I learned composition">
-      <option name="closed" value="true" />
-      <created>1759998936672</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1759998936672</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Started my session n°21">
-      <option name="closed" value="true" />
-      <created>1760182035711</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1760182035711</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Started my session n°21">
-      <option name="closed" value="true" />
-      <created>1760612239804</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1760612239804</updated>
-    </task>
-    <option name="localTasksCounter" value="34" />
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,8 +539,7 @@
     <MESSAGE value="Start session 19, exercise one, implements interface and class" />
     <MESSAGE value="Start session 19, exercise 2 one, implements interface and class" />
     <MESSAGE value="Started my session n°20, in this class I learned composition" />
-    <MESSAGE value="Started my session n°21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started my session n°21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started my session n°20, in this class I learned composition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
