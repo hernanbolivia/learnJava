@@ -1,4 +1,4 @@
-package day21;
+package day21.tostring;
 
 public class Person {
 
@@ -27,9 +27,11 @@ public class Person {
     }
 
 
-    public void displayDetails(){
+    @Override
+    public String toString() {
         System.out.println("\n====== Person Details =====");
-        System.out.printf("%-12s: %s%n", "Name",this.name);
-        System.out.printf("%-12s: %d%n", "Age",this.age);
+        return "Name: " + this.name + "\nAge: " + this.age;
     }
+
+
 }
