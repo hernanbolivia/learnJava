@@ -37,19 +37,20 @@ public class Book {
         this.yearOfPublication = yearOfPublication;
     }
 
-    public void displayDetails(){
+    /*public void displayDetails(){
         System.out.println("Name: " + this.title);
         System.out.println("Author: " + this.author);
         System.out.println("Year of Publication: " + this.yearOfPublication);
-    }
-
-
-   /* @Override
-    public String toString() {
-        return "Book{" + "title=" + this.title +
-                ", author=" + this.author +
-                ", yearOfPublication=" + this.yearOfPublication + '}';
     }*/
+
+
+   @Override
+    public String toString() {
+       System.out.println("\n====== Book Details =====");
+        return "Title: " + this.title +
+                "\nAuthor: " + this.author +
+                "\nYear of Publication: " + this.yearOfPublication;
+    }
 
 
 }
